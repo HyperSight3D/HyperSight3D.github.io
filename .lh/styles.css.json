@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 3,
+            "activePatchIndex": 4,
             "patches": [
                 {
                     "date": 1774023652543,
@@ -20,6 +20,10 @@
                 {
                     "date": 1774032984053,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -321,9 +321,9 @@\n     transition: transform 0.3s ease, box-shadow 0.3s ease;\n }\n \n .award-list li:hover {\n-    transform: translateX(5px);\n+    transform: translateY(-3px);\n     box-shadow: 0 4px 12px rgba(0,0,0,0.1);\n }\n \n .award-list li:last-child {\n"
+                },
+                {
+                    "date": 1774033570719,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -71,16 +71,20 @@\n }\n \n .faculty-image {\n     width: 100%;\n-    height: 120px;\n+    height: 180px;\n     overflow: hidden;\n+    background: #f8f9fa;\n+    display: flex;\n+    align-items: center;\n+    justify-content: center;\n }\n \n .faculty-image img {\n     width: 100%;\n     height: 100%;\n-    object-fit: cover;\n+    object-fit: contain;\n     transition: transform 0.3s ease;\n }\n \n .faculty-card:hover .faculty-image img {\n@@ -244,8 +248,55 @@\n     color: #666;\n     font-size: 0.9rem;\n }\n \n+/* Research Interests */\n+.interest-grid {\n+    display: flex;\n+    flex-direction: column;\n+    gap: 25px;\n+}\n+\n+.interest-item {\n+    display: flex;\n+    gap: 20px;\n+    padding: 25px;\n+    background: #f8f9fa;\n+    border-radius: 8px;\n+    border-left: 4px solid #667eea;\n+    transition: transform 0.3s ease, box-shadow 0.3s ease;\n+}\n+\n+.interest-item:hover {\n+    transform: translateY(-3px);\n+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);\n+}\n+\n+.interest-icon {\n+    flex-shrink: 0;\n+    width: 60px;\n+    height: 60px;\n+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);\n+    border-radius: 12px;\n+    display: flex;\n+    align-items: center;\n+    justify-content: center;\n+    color: white;\n+    font-size: 1.5rem;\n+}\n+\n+.interest-info h3 {\n+    color: #2c3e50;\n+    font-size: 1.3rem;\n+    margin-bottom: 10px;\n+}\n+\n+.interest-info p {\n+    color: #555;\n+    font-size: 0.95rem;\n+    line-height: 1.7;\n+}\n+\n /* Research Projects */\n .project-summary {\n     font-size: 1.05rem;\n     color: #2c3e50;\n@@ -365,15 +416,28 @@\n     padding: 20px;\n     background: #f8f9fa;\n     border-radius: 8px;\n     transition: transform 0.3s ease, box-shadow 0.3s ease;\n+    position: relative;\n }\n \n .publication-item:hover {\n     transform: translateY(-3px);\n     box-shadow: 0 4px 12px rgba(0,0,0,0.1);\n }\n \n+.pub-year {\n+    position: absolute;\n+    top: 15px;\n+    right: 15px;\n+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);\n+    color: white;\n+    padding: 5px 12px;\n+    border-radius: 20px;\n+    font-weight: 600;\n+    font-size: 0.85rem;\n+}\n+\n .publication-item h4 {\n     color: #2c3e50;\n     margin-bottom: 8px;\n     font-size: 1.1rem;\n"
                 }
             ],
             "date": 1774023652543,
