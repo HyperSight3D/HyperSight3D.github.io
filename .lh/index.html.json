@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 38,
+            "activePatchIndex": 39,
             "patches": [
                 {
                     "date": 1774023343062,
@@ -160,6 +160,10 @@
                 {
                     "date": 1774038520756,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,16 +67,21 @@\n                 <div class=\"section-content\">\n                     <p>HyperSight 3D Perception Lab is affiliated with the School of Software at Dalian University of Technology. Our lab is dedicated to addressing the challenges of intelligent perception in harsh environments, including fog, sand/dust, collision, and low-light conditions.</p>\n                     <p>We focus on developing robust algorithms and systems for 3D scene understanding, stereo vision, multi-modal perception, and computational imaging. Our research aims to enable reliable perception capabilities for autonomous systems operating in challenging real-world scenarios.</p>\n                     \n+                    <div class=\"recruitment-notice\">\n+                        <i class=\"fa fa-graduation-cap\"></i>\n+                        <strong>Welcome to join us!</strong> We are actively recruiting PhD students who are passionate about computer vision, 3D perception, and artificial intelligence. If you are interested in our research, please contact us.\n+                    </div>\n+                    \n                     <div class=\"intro-images\">\n                         <div class=\"intro-image-item\">\n                             <img src=\"images/framework.png\" alt=\"Framework\" class=\"intro-image\">\n                             <p class=\"image-caption\">Framework</p>\n                         </div>\n                         <div class=\"intro-image-item\">\n                             <img src=\"images/applications.png\" alt=\"Applications\" class=\"intro-image\">\n-                            <p class=\"image-caption\">Research Applications</p>\n+                            <p class=\"image-caption\">Applications</p>\n                         </div>\n                     </div>\n                 </div>\n             </section>\n"
+                },
+                {
+                    "date": 1774038751065,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -69,9 +69,9 @@\n                     <p>We focus on developing robust algorithms and systems for 3D scene understanding, stereo vision, multi-modal perception, and computational imaging. Our research aims to enable reliable perception capabilities for autonomous systems operating in challenging real-world scenarios.</p>\n                     \n                     <div class=\"recruitment-notice\">\n                         <i class=\"fa fa-graduation-cap\"></i>\n-                        <strong>Welcome to join us!</strong> We are actively recruiting PhD students who are passionate about computer vision, 3D perception, and artificial intelligence. If you are interested in our research, please contact us.\n+                        <strong>Welcome to join us!</strong> We are actively recruiting master/PhD students who are passionate about computer vision, imaging, and artificial intelligence. If you are interested in our research, please contact us.\n                     </div>\n                     \n                     <div class=\"intro-images\">\n                         <div class=\"intro-image-item\">\n"
                 }
             ],
             "date": 1774023343062,
