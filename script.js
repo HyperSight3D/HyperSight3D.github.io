@@ -13,12 +13,12 @@ const observer = new IntersectionObserver((entries) => {
     });
 }, observerOptions);
 
-// Observe all content sections
+// Observe all animated sections
 document.addEventListener('DOMContentLoaded', () => {
-    const sections = document.querySelectorAll('.content-section');
-    sections.forEach((section, index) => {
-        section.style.transitionDelay = `${index * 0.1}s`;
-        observer.observe(section);
+    const animatedElements = document.querySelectorAll('.fade-in, .slide-left, .slide-right, .scale-in');
+    animatedElements.forEach((element, index) => {
+        element.style.transitionDelay = `${index * 0.1}s`;
+        observer.observe(element);
     });
 });
 
