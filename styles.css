@@ -591,6 +591,42 @@ body {
     line-height: 1.6;
 }
 
+/* Introduction Images */
+.intro-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.intro-image-item {
+    text-align: center;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #667eea;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.intro-image-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.intro-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+.image-caption {
+    color: #667eea;
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin: 0;
+}
+
 /* Footer */
 .footer {
     background: #2c3e50;
