@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 8,
+            "activePatchIndex": 11,
             "patches": [
                 {
                     "date": 1774023343062,
@@ -40,6 +40,18 @@
                 {
                     "date": 1774032304671,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -164,22 +164,26 @@\n                 <h2><i class=\"fa fa-star\"></i> Research Awards</h2>\n                 <div class=\"section-content\">\n                     <ul class=\"award-list\">\n                         <li>\n-                            <span class=\"award-year\">2024</span>\n-                            <span class=\"award-name\">Best Paper Award, IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</span>\n+                            <span class=\"award-year\">2025</span>\n+                            <span class=\"award-name\">多模态具身智能感知系统关键软件技术</span>\n+                            <span class=\"award-category\">关键软件技术创新成果奖</span>\n                         </li>\n                         <li>\n-                            <span class=\"award-year\">2023</span>\n-                            <span class=\"award-name\">First Prize, Liaoning Provincial Science and Technology Progress Award</span>\n+                            <span class=\"award-year\">2024</span>\n+                            <span class=\"award-name\">移动终端影像系统关键技术与应用</span>\n+                            <span class=\"award-category\">北京市科技进步一等奖</span>\n                         </li>\n                         <li>\n-                            <span class=\"award-year\">2022</span>\n-                            <span class=\"award-name\">Outstanding Young Researcher Award, Dalian University of Technology</span>\n+                            <span class=\"award-year\">2024</span>\n+                            <span class=\"award-name\">ECCV the Second Perception Test Challenge</span>\n+                            <span class=\"award-category\">Best Performance in Single Object Tracking</span>\n                         </li>\n                         <li>\n-                            <span class=\"award-year\">2021</span>\n-                            <span class=\"award-name\">Best Paper Honorable Mention, IEEE International Conference on Computer Vision (ICCV)</span>\n+                            <span class=\"award-year\">2023</span>\n+                            <span class=\"award-name\">辽宁省优秀研究生导师团队</span>\n+                            <span class=\"award-category\"></span>\n                         </li>\n                     </ul>\n                 </div>\n             </section>\n"
+                },
+                {
+                    "date": 1774032655125,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n                     </div>\n                 </div>\n             </div>\n \n-            <!-- Associate Professor Weiheng Lu -->\n+            <!-- Associate Professor Henglu Wei -->\n             <div class=\"faculty-card\">\n                 <div class=\"faculty-image\">\n                     <img src=\"images/weihenglu.jpg\" alt=\"Associate Professor Weiheng Lu\">\n                 </div>\n"
+                },
+                {
+                    "date": 1774032668389,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n \n             <!-- Associate Professor Henglu Wei -->\n             <div class=\"faculty-card\">\n                 <div class=\"faculty-image\">\n-                    <img src=\"images/weihenglu.jpg\" alt=\"Associate Professor Weiheng Lu\">\n+                    <img src=\"images/weihenglu.jpg\" alt=\"Associate Professor Henglu Wei\">\n                 </div>\n                 <div class=\"faculty-info\">\n                     <h3>Weiheng Lu</h3>\n                     <p class=\"faculty-title\">Associate Professor</p>\n"
+                },
+                {
+                    "date": 1774032675060,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n                 <div class=\"faculty-image\">\n                     <img src=\"images/weihenglu.jpg\" alt=\"Associate Professor Henglu Wei\">\n                 </div>\n                 <div class=\"faculty-info\">\n-                    <h3>Weiheng Lu</h3>\n+                    <h3>Henglu Wei</h3>\n                     <p class=\"faculty-title\">Associate Professor</p>\n                     <p class=\"faculty-role\">Master Supervisor</p>\n                     <div class=\"faculty-contact\">\n                         <p><i class=\"fa fa-envelope\"></i> <a href=\"mailto:weihl@dlut.edu.cn\">weihl@dlut.edu.cn</a></p>\n"
                 }
             ],
             "date": 1774023343062,

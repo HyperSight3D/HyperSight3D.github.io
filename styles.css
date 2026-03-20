@@ -72,7 +72,7 @@ body {
 
 .faculty-image {
     width: 100%;
-    height: 240px;
+    height: 120px;
     overflow: hidden;
 }
 
@@ -276,7 +276,7 @@ body {
 }
 
 .project-item:hover {
-    transform: translateX(5px);
+    transform: translateY(-3px);
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
@@ -322,7 +322,7 @@ body {
 }
 
 .award-list li:hover {
-    transform: translateX(5px);
+    transform: translateY(-3px);
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
@@ -401,8 +401,8 @@ body {
 }
 
 .pub-rank {
-    color: #e74c3c;
-    font-weight: bold;
+    color: #e74c3c !important;
+    font-weight: bold !important;
     font-size: 0.9rem;
 }
 
@@ -453,7 +453,7 @@ body {
 }
 
 .patent-list li:hover {
-    transform: translateX(5px);
+    transform: translateY(-3px);
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
