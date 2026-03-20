@@ -645,10 +645,12 @@ body {
 }
 
 .intro-image {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
     border-radius: 6px;
     margin-bottom: 12px;
+    background: white;
 }
 
 .image-caption {
