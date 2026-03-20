@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 32,
+            "activePatchIndex": 33,
             "patches": [
                 {
                     "date": 1774023343062,
@@ -136,6 +136,10 @@
                 {
                     "date": 1774037350560,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -196,9 +196,9 @@\n                 </div>\n             </section>\n \n             <!-- Publications -->\n-            <section id=\"publications\" class=\"content-section\">\n+            <section id=\"publications\" class=\"content-section fade-in\">\n                 <h2><i class=\"fa fa-book\"></i> Selected Publications</h2>\n                 <div class=\"section-content\">\n                     <div class=\"publication-list\">\n                         <div class=\"publication-item\">\n@@ -361,9 +361,9 @@\n                 </div>\n             </section>\n \n             <!-- Patents -->\n-            <section id=\"patents\" class=\"content-section\">\n+            <section id=\"patents\" class=\"content-section fade-in\">\n                 <h2><i class=\"fa fa-lightbulb-o\"></i> Patents</h2>\n                 <div class=\"section-content\">\n                     <p class=\"patent-summary\">Over recent years, we have been granted <strong>17 international</strong> and over <strong>60 domestic invention patents</strong>, with representative patents shown below:</p>\n                     <ul class=\"patent-list\">\n"
+                },
+                {
+                    "date": 1774037677866,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -73,9 +73,9 @@\n                             <img src=\"images/motivation.png\" alt=\"Research Motivation\" class=\"intro-image\">\n                             <p class=\"image-caption\">Research Motivation</p>\n                         </div>\n                         <div class=\"intro-image-item\">\n-                            <img src=\"images/application.png\" alt=\"Research Applications\" class=\"intro-image\">\n+                            <img src=\"images/applications.png\" alt=\"Research Applications\" class=\"intro-image\">\n                             <p class=\"image-caption\">Research Applications</p>\n                         </div>\n                     </div>\n                 </div>\n@@ -411,9 +411,9 @@\n                 </div>\n             </section>\n \n             <!-- Contact -->\n-            <section id=\"contact\" class=\"content-section\">\n+            <section id=\"contact\" class=\"content-section fade-in\">\n                 <h2><i class=\"fa fa-envelope\"></i> Contact Us</h2>\n                 <div class=\"section-content\">\n                     <div class=\"contact-info-main\">\n                         <div class=\"contact-item\">\n"
                 }
             ],
             "date": 1774023343062,
