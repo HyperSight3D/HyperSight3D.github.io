@@ -551,9 +551,14 @@ body {
 }
 
 .patent-year {
-    color: #e74c3c;
-    font-weight: bold;
-    font-size: 0.9rem;
+    display: inline-block;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    width: fit-content;
 }
 
 /* Contact */
