@@ -49,7 +49,7 @@ body {
 
 /* Left Sidebar */
 .sidebar {
-    flex: 0 0 320px;
+    flex: 0 0 280px;
     position: sticky;
     top: 20px;
     height: fit-content;
@@ -72,7 +72,7 @@ body {
 
 .faculty-image {
     width: 100%;
-    height: 280px;
+    height: 240px;
     overflow: hidden;
 }
 
@@ -246,6 +246,21 @@ body {
 }
 
 /* Research Projects */
+.project-summary {
+    font-size: 1.05rem;
+    color: #2c3e50;
+    margin-bottom: 25px;
+    padding: 15px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    border-radius: 8px;
+    line-height: 1.8;
+}
+
+.project-summary strong {
+    color: #667eea;
+    font-size: 1.1rem;
+}
+
 .project-list {
     display: flex;
     flex-direction: column;
@@ -257,6 +272,12 @@ body {
     background: #f8f9fa;
     border-radius: 8px;
     border-left: 4px solid #667eea;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .project-item h4 {
@@ -266,9 +287,16 @@ body {
 }
 
 .project-title {
-    color: #555;
-    font-style: italic;
+    color: #2c3e50;
+    font-weight: 600;
     margin-bottom: 8px;
+    font-size: 1rem;
+}
+
+.project-funding {
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: 0.95rem;
 }
 
 .project-period {
@@ -283,28 +311,47 @@ body {
 
 .award-list li {
     display: flex;
-    gap: 20px;
-    padding: 15px 0;
-    border-bottom: 1px solid #ecf0f1;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border-left: 4px solid #667eea;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.award-list li:hover {
+    transform: translateX(5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .award-list li:last-child {
-    border-bottom: none;
+    margin-bottom: 0;
 }
 
 .award-year {
-    flex-shrink: 0;
+    display: inline-block;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
     padding: 5px 12px;
     border-radius: 20px;
     font-weight: 600;
     font-size: 0.9rem;
+    width: fit-content;
 }
 
 .award-name {
-    color: #555;
+    color: #2c3e50;
+    font-weight: 600;
+    font-size: 1rem;
     line-height: 1.6;
+}
+
+.award-category {
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: 0.95rem;
 }
 
 /* Publications */
@@ -353,6 +400,12 @@ body {
     font-weight: 600;
 }
 
+.pub-rank {
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
 .pub-link {
     display: inline-flex;
     align-items: center;
@@ -368,6 +421,21 @@ body {
 }
 
 /* Patents */
+.patent-summary {
+    font-size: 1.05rem;
+    color: #2c3e50;
+    margin-bottom: 25px;
+    padding: 15px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    border-radius: 8px;
+    line-height: 1.8;
+}
+
+.patent-summary strong {
+    color: #667eea;
+    font-size: 1.1rem;
+}
+
 .patent-list {
     list-style: none;
 }
@@ -380,6 +448,13 @@ body {
     background: #f8f9fa;
     border-radius: 8px;
     margin-bottom: 15px;
+    border-left: 4px solid #667eea;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.patent-list li:hover {
+    transform: translateX(5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .patent-type {
@@ -395,7 +470,8 @@ body {
 
 .patent-name {
     color: #2c3e50;
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 1rem;
 }
 
 .patent-inventors {
@@ -404,9 +480,16 @@ body {
 }
 
 .patent-number {
-    color: #7f8c8d;
-    font-size: 0.85rem;
+    color: #667eea;
+    font-size: 0.9rem;
     font-family: monospace;
+    font-weight: 600;
+}
+
+.patent-year {
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: 0.9rem;
 }
 
 /* Contact */

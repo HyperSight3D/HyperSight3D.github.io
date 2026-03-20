@@ -13,9 +13,7 @@ This is the GitHub homepage for HyperSight 3D Perception Lab at the School of So
 ├── images/             # Images directory
 │   ├── dlut.jpg        # Dalian University of Technology image
 │   ├── zhongwei.jpg    # Professor Wei Zhong's photo
-│   ├── member1.jpg     # Team member 1 photo
-│   ├── member2.jpg     # Team member 2 photo
-│   └── member3.jpg     # Team member 3 photo
+│   ├── weihenglu.jpg   # Associate Professor Henglu Wei's photo
 └── README.md           # Documentation file
 ```
 
@@ -36,10 +34,10 @@ This is the GitHub homepage for HyperSight 3D Perception Lab at the School of So
 
 Open the `index.html` file and modify the following content:
 
-- Website title: `<title>Professor Wei Zhong's Group - School of Software, Dalian University of Technology</title>`
-- Navigation brand: `<a href="#">Professor Wei Zhong's Group</a>`
-- Hero section title: `<h1>Professor Wei Zhong's Group</h1>` and `<p>School of Software, Dalian University of Technology</p>`
-- Footer information: `<h3>Professor Wei Zhong's Group</h3>` and `<p>School of Software, Dalian University of Technology</p>`
+- Website title: `<title>HyperSight 3D Perception Lab - School of Software, Dalian University of Technology</title>`
+- Navigation brand: `<a href="#">PHyperSight 3D Perception Lab</a>`
+- Hero section title: `<h1>HyperSight 3D Perception Lab</h1>` and `<p>School of Software, Dalian University of Technology</p>`
+- Footer information: `<h3>HyperSight 3D Perception Lab</h3>` and `<p>School of Software, Dalian University of Technology</p>`
 
 ### 2. Modify About Us
 
