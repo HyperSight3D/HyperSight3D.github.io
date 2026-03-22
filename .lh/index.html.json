@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 75,
+            "activePatchIndex": 76,
             "patches": [
                 {
                     "date": 1774023343062,
@@ -308,6 +308,10 @@
                 {
                     "date": 1774186326285,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -105,9 +105,9 @@\n                     \n                     <div class=\"lab-environment\">\n                         <i class=\"fa fa-building\"></i>\n                         <strong>实验室环境</strong>\n-                        <p>拥有完善且现代化的科研实验环境，配备高性能计算集群、多类型高精度传感设备、立体视觉采集平台及实车验证系统，可支撑算法仿真、模型训练与工程落地全流程研究。实验室科研经费充足，提供极具竞争力的实验条件和助研费用。实验室学术氛围浓厚、风气积极向上，师生交流密切、协作氛围融洽，高度鼓励学术探索、原始创新与跨方向思想碰撞，定期开展组会研讨、学术分享与技术交流，助力学生科研能力与综合素养快速提升。</p>\n+                        <p>拥有完善先进的现代化科研实验平台，配备高性能计算集群、多类高精度传感设备、立体视觉采集系统与实车验证环境，可支撑算法仿真、模型训练及工程落地的全流程研发。实验室科研经费充裕，提供一流实验条件与优厚助研保障。团队学术氛围浓厚、作风务实进取，师生交流密切、协作融洽，鼓励前沿探索、原始创新与跨领域融合；定期开展组会研讨、学术分享与技术交流，全方位助力学生科研素养与综合能力快速提升。</p>\n                     </div>\n                     \n                     <div class=\"recruitment-notice\">\n                         <i class=\"fa fa-graduation-cap\"></i>\n"
+                },
+                {
+                    "date": 1774186474956,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,9 +52,10 @@\n                         <p><i class=\"fa fa-envelope\"></i> <a href=\"mailto:lin@dlut.edu.cn\">lin@dlut.edu.cn</a></p>\n                         <p><i class=\"fa fa-building\"></i> Room 408, Information Building</p>\n                     </div>\n                     <div class=\"faculty-links\">\n-                        <a href=\"https://scholar.google.com/citations?user=WPDPlLUAAAAJ&hl=en&oi=ao\" title=\"Google Scholar\"><i class=\"fa fa-home\"></i></a>\n+                        <a href=\"https://faculty.dlut.edu.cn/lin/zh_CN/index/693743/list/index.htm\" title=\"Homepage\"><i class=\"fa fa-home\"></i></a>\n+                        <a href=\"https://scholar.google.com/citations?user=WPDPlLUAAAAJ&hl=en&oi=sra\" title=\"Google Scholar\"><i class=\"fa fa-graduation-cap\"></i></a>\n                     </div>\n                 </div>\n             </div>\n \n"
                 }
             ],
             "date": 1774023343062,
