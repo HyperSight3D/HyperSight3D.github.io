@@ -622,77 +622,189 @@ body {
     line-height: 1.6;
 }
 
-/* Recruitment Notice */
+/* Recruitment Notice, Graduate Destinations, Lab Environment */
 .recruitment-notice, .graduate-destinations, .lab-environment {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
-    padding: 20px 25px;
-    border-radius: 8px;
-    margin: 25px 0;
+    padding: 25px 30px;
+    border-radius: 16px;
+    margin: 30px 0;
     display: flex;
     align-items: flex-start;
-    gap: 15px;
-    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
-    animation: pulse 2s ease-in-out infinite;
+    gap: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-@keyframes pulse {
-    0%, 100% {
-        box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+/* Individual styles for each section */
+.graduate-destinations {
+    background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+}
+
+.graduate-destinations::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 60%);
+    animation: shimmer 8s linear infinite;
+}
+
+.lab-environment {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+.lab-environment::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 60%);
+    animation: shimmer 10s linear infinite;
+}
+
+.recruitment-notice {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.recruitment-notice::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.15) 0%, transparent 60%);
+    animation: shimmer 6s linear infinite;
+}
+
+@keyframes shimmer {
+    0% {
+        transform: rotate(0deg);
     }
-    50% {
-        box-shadow: 0 4px 25px rgba(102, 126, 234, 0.5);
+    100% {
+        transform: rotate(360deg);
     }
 }
 
+/* Icon styling */
 .recruitment-notice i, .graduate-destinations i, .lab-environment i {
-    font-size: 2rem;
-    animation: bounce 1s ease infinite;
+    font-size: 2.5rem;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    padding: 15px;
+    backdrop-filter: blur(10px);
+    animation: iconFloat 3s ease-in-out infinite;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1;
 }
 
-@keyframes bounce {
+@keyframes iconFloat {
     0%, 100% {
-        transform: translateY(0);
+        transform: translateY(0) scale(1);
     }
     50% {
-        transform: translateY(-5px);
+        transform: translateY(-8px) scale(1.05);
     }
 }
 
+/* Content styling */
 .recruitment-notice strong, .graduate-destinations strong, .lab-environment strong {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 12px;
+    font-weight: 700;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
 }
 
+.recruitment-notice p, .graduate-destinations p, .lab-environment p {
+    margin: 0;
+    line-height: 1.8;
+    font-size: 0.95rem;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+}
+
+/* Hover effects */
 .recruitment-notice:hover, .graduate-destinations:hover, .lab-environment:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
 }
 
+.recruitment-notice:hover i, .graduate-destinations:hover i, .lab-environment:hover i {
+    background: rgba(255, 255, 255, 0.3);
+    transform: translateY(-10px) scale(1.1);
+}
+
+/* Destination list styling */
 .graduate-destinations .destination-list {
     list-style: none;
     padding: 0;
-    margin: 10px 0 0 0;
+    margin: 15px 0 0 0;
 }
 
 .graduate-destinations .destination-list li {
     display: flex;
     align-items: center;
-    gap: 10px;
-    margin-bottom: 8px;
+    gap: 12px;
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.graduate-destinations .destination-list li:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateX(5px);
 }
 
 .graduate-destinations .destination-list li i {
-    font-size: 1rem;
+    font-size: 1.1rem;
     animation: none;
-    color: rgba(255, 255, 255, 0.8);
-    width: 25px;
-    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    width: auto;
+    height: auto;
+    padding: 0;
+    background: none;
+    backdrop-filter: none;
 }
 
-.lab-environment p {
-    margin: 10px 0 0 0;
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .recruitment-notice, .graduate-destinations, .lab-environment {
+        padding: 20px;
+        gap: 15px;
+    }
+    
+    .recruitment-notice i, .graduate-destinations i, .lab-environment i {
+        font-size: 2rem;
+        width: 50px;
+        height: 50px;
+        padding: 12px;
+    }
+    
+    .recruitment-notice strong, .graduate-destinations strong, .lab-environment strong {
+        font-size: 1.1rem;
+    }
+    
+    .recruitment-notice p, .graduate-destinations p, .lab-environment p {
+        font-size: 0.9rem;
+    }
 }
 
 /* Introduction Images */

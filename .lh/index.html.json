@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 76,
+            "activePatchIndex": 78,
             "patches": [
                 {
                     "date": 1774023343062,
@@ -312,6 +312,14 @@
                 {
                     "date": 1774186474956,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,9 +52,10 @@\n                         <p><i class=\"fa fa-envelope\"></i> <a href=\"mailto:lin@dlut.edu.cn\">lin@dlut.edu.cn</a></p>\n                         <p><i class=\"fa fa-building\"></i> Room 408, Information Building</p>\n                     </div>\n                     <div class=\"faculty-links\">\n-                        <a href=\"https://scholar.google.com/citations?user=WPDPlLUAAAAJ&hl=en&oi=ao\" title=\"Google Scholar\"><i class=\"fa fa-home\"></i></a>\n+                        <a href=\"https://faculty.dlut.edu.cn/lin/zh_CN/index/693743/list/index.htm\" title=\"Homepage\"><i class=\"fa fa-home\"></i></a>\n+                        <a href=\"https://scholar.google.com/citations?user=WPDPlLUAAAAJ&hl=en&oi=sra\" title=\"Google Scholar\"><i class=\"fa fa-graduation-cap\"></i></a>\n                     </div>\n                 </div>\n             </div>\n \n"
+                },
+                {
+                    "date": 1774186765665,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -100,9 +100,9 @@\n                     \n                     <div class=\"graduate-destinations\">\n                         <i class=\"fa fa-users\"></i>\n                         <strong>毕业生去向</strong>\n-                        <p>研究方向紧扣人工智能、立体视觉、自动驾驶与高端装备感知等国家战略需求。毕业生综合素养突出、就业竞争力强、行业认可度高，多人赴国内外顶尖高校深造攻读博士，优质去向涵盖航天科研院所、华为、腾讯等头部企业核心算法岗位及党政机关定向选调，发展前景广阔。</p>\n+                        <p>研究方向紧扣人工智能、立体视觉、自动驾驶与高端装备感知等国家战略需求。毕业生综合素养扎实、就业竞争力强、行业认可度高，多人赴国内外顶尖高校深造攻读博士，就业涵盖航天科研院所、华为、腾讯等企业核心算法岗位及党政机关定向选调，发展路径多元、前景广阔。</p>\n                     </div>\n                     \n                     <div class=\"lab-environment\">\n                         <i class=\"fa fa-building\"></i>\n"
+                },
+                {
+                    "date": 1774186772268,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -100,9 +100,9 @@\n                     \n                     <div class=\"graduate-destinations\">\n                         <i class=\"fa fa-users\"></i>\n                         <strong>毕业生去向</strong>\n-                        <p>研究方向紧扣人工智能、立体视觉、自动驾驶与高端装备感知等国家战略需求。毕业生综合素养扎实、就业竞争力强、行业认可度高，多人赴国内外顶尖高校深造攻读博士，就业涵盖航天科研院所、华为、腾讯等企业核心算法岗位及党政机关定向选调，发展路径多元、前景广阔。</p>\n+                        <p>研究方向紧扣人工智能、立体视觉、自动驾驶与高端装备感知等国家战略需求。毕业生综合素养扎实、就业竞争力强、行业认可度高，多人赴国内外顶尖高校深造攻读博士，就业涵盖航天科研院所、华为、腾讯、金山等企业核心算法岗位及党政机关定向选调，发展路径多元、前景广阔。</p>\n                     </div>\n                     \n                     <div class=\"lab-environment\">\n                         <i class=\"fa fa-building\"></i>\n"
                 }
             ],
             "date": 1774023343062,
