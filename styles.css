@@ -623,14 +623,14 @@ body {
 }
 
 /* Recruitment Notice */
-.recruitment-notice {
+.recruitment-notice, .graduate-destinations, .lab-environment {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
     padding: 20px 25px;
     border-radius: 8px;
     margin: 25px 0;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 15px;
     box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
     animation: pulse 2s ease-in-out infinite;
@@ -645,7 +645,7 @@ body {
     }
 }
 
-.recruitment-notice i {
+.recruitment-notice i, .graduate-destinations i, .lab-environment i {
     font-size: 2rem;
     animation: bounce 1s ease infinite;
 }
@@ -659,71 +659,40 @@ body {
     }
 }
 
-.recruitment-notice strong {
+.recruitment-notice strong, .graduate-destinations strong, .lab-environment strong {
     font-size: 1.1rem;
     display: block;
     margin-bottom: 5px;
 }
 
-.recruitment-notice:hover {
+.recruitment-notice:hover, .graduate-destinations:hover, .lab-environment:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
 }
 
-/* Graduate Destinations */
-.graduate-destinations {
-    background: #f8f9fa;
-    padding: 25px;
-    border-radius: 8px;
-    border-left: 4px solid #667eea;
-    margin: 25px 0;
+.graduate-destinations .destination-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
 }
 
-.graduate-destinations h3 {
-    color: #2c3e50;
-    margin-bottom: 15px;
-    font-size: 1.3rem;
+.graduate-destinations .destination-list li {
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-bottom: 8px;
 }
 
-.graduate-destinations h3 i {
-    color: #667eea;
-}
-
-.graduate-destinations > p {
-    color: #555;
-    margin-bottom: 15px;
-}
-
-.destination-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.destination-list li {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    padding: 12px 15px;
-    margin-bottom: 10px;
-    background: white;
-    border-radius: 6px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.destination-list li:hover {
-    transform: translateX(5px);
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-.destination-list li i {
-    color: #667eea;
-    font-size: 1.1rem;
+.graduate-destinations .destination-list li i {
+    font-size: 1rem;
+    animation: none;
+    color: rgba(255, 255, 255, 0.8);
     width: 25px;
     text-align: center;
+}
+
+.lab-environment p {
+    margin: 10px 0 0 0;
 }
 
 /* Introduction Images */
