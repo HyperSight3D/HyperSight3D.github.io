@@ -1,8 +1,8 @@
-# HyperSight 3D Perception Lab - School of Software, Dalian University of Technology GitHub Page
+# Super Vision Perception Lab - School of Software, Dalian University of Technology GitHub Page
 
 ## Project Introduction
 
-This is the GitHub homepage for HyperSight 3D Perception Lab at the School of Software, Dalian University of Technology. It is used to showcase the team's research directions, member information, published papers, and other content.
+This is the GitHub homepage for Super Vision Perception Lab at the School of Software, Dalian University of Technology. It is used to showcase the team's research directions, member information, published papers, and other content.
 
 ## Project Structure
 
@@ -13,6 +13,7 @@ This is the GitHub homepage for HyperSight 3D Perception Lab at the School of So
 ├── images/             # Images directory
 │   ├── dlut.jpg        # Dalian University of Technology image
 │   ├── zhongwei.jpg    # Professor Wei Zhong's photo
+│   ├── linlin.png      # Professor Lin Lin's photo
 │   ├── weihenglu.jpg   # Associate Professor Henglu Wei's photo
 └── README.md           # Documentation file
 ```
@@ -34,10 +35,10 @@ This is the GitHub homepage for HyperSight 3D Perception Lab at the School of So
 
 Open the `index.html` file and modify the following content:
 
-- Website title: `<title>HyperSight 3D Perception Lab - School of Software, Dalian University of Technology</title>`
-- Navigation brand: `<a href="#">PHyperSight 3D Perception Lab</a>`
-- Hero section title: `<h1>HyperSight 3D Perception Lab</h1>` and `<p>School of Software, Dalian University of Technology</p>`
-- Footer information: `<h3>HyperSight 3D Perception Lab</h3>` and `<p>School of Software, Dalian University of Technology</p>`
+- Website title: `<title>Super Vision Perception Lab - School of Software, Dalian University of Technology</title>`
+- Navigation brand: `<a href="#">Super Vision Perception Lab</a>`
+- Hero section title: `<h1>Super Vision Perception Lab</h1>` and `<p>School of Software, Dalian University of Technology</p>`
+- Footer information: `<h3>Super Vision Perception Lab</h3>` and `<p>School of Software, Dalian University of Technology</p>`
 
 ### 2. Modify About Us
 

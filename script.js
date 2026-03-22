@@ -71,4 +71,4 @@ document.querySelectorAll('.achievement-item').forEach(item => {
     });
 });
 
-console.log('HyperSight 3D Perception Lab website loaded successfully!');
+console.log('Super Vision Perception Lab website loaded successfully!');

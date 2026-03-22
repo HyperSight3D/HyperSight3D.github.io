@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 9,
+            "activePatchIndex": 13,
             "patches": [
                 {
                     "date": 1774023293391,
@@ -44,6 +44,22 @@
                 {
                     "date": 1774023554111,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n \n - Website title: `<title>HyperSight 3D Perception Lab - School of Software, Dalian University of Technology</title>`\n - Navigation brand: `<a href=\"#\">PHyperSight 3D Perception Lab</a>`\n - Hero section title: `<h1>HyperSight 3D Perception Lab</h1>` and `<p>School of Software, Dalian University of Technology</p>`\n-- Footer information: `<h3>Professor Wei Zhong's Group</h3>` and `<p>School of Software, Dalian University of Technology</p>`\n+- Footer information: `<h3>HyperSight 3D Perception Lab</h3>` and `<p>School of Software, Dalian University of Technology</p>`\n \n ### 2. Modify About Us\n \n In the `index.html` file, find the `<section id=\"about\">` section and modify the following content:\n"
+                },
+                {
+                    "date": 1774179259260,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n-# HyperSight 3D Perception Lab - School of Software, Dalian University of Technology GitHub Page\n+# Super Vision Perception Lab - School of Software, Dalian University of Technology GitHub Page\n \n ## Project Introduction\n \n-This is the GitHub homepage for HyperSight 3D Perception Lab at the School of Software, Dalian University of Technology. It is used to showcase the team's research directions, member information, published papers, and other content.\n+This is the GitHub homepage for Super Vision Perception Lab at the School of Software, Dalian University of Technology. It is used to showcase the team's research directions, member information, published papers, and other content.\n \n ## Project Structure\n \n ```\n"
+                },
+                {
+                    "date": 1774179275705,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,12 +33,12 @@\n ### 1. Modify Basic Information\n \n Open the `index.html` file and modify the following content:\n \n-- Website title: `<title>HyperSight 3D Perception Lab - School of Software, Dalian University of Technology</title>`\n-- Navigation brand: `<a href=\"#\">PHyperSight 3D Perception Lab</a>`\n-- Hero section title: `<h1>HyperSight 3D Perception Lab</h1>` and `<p>School of Software, Dalian University of Technology</p>`\n-- Footer information: `<h3>HyperSight 3D Perception Lab</h3>` and `<p>School of Software, Dalian University of Technology</p>`\n+- Website title: `<title>Super Vision Perception Lab - School of Software, Dalian University of Technology</title>`\n+- Navigation brand: `<a href=\"#\">Super Vision Perception Lab</a>`\n+- Hero section title: `<h1>Super Vision Perception Lab</h1>` and `<p>School of Software, Dalian University of Technology</p>`\n+- Footer information: `<h3>Super Vision Perception Lab</h3>` and `<p>School of Software, Dalian University of Technology</p>`\n \n ### 2. Modify About Us\n \n In the `index.html` file, find the `<section id=\"about\">` section and modify the following content:\n"
+                },
+                {
+                    "date": 1774179288883,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,9 @@\n ├── script.js           # JavaScript file\n ├── images/             # Images directory\n │   ├── dlut.jpg        # Dalian University of Technology image\n │   ├── zhongwei.jpg    # Professor Wei Zhong's photo\n+│   ├── linlin.png       # Professor Lin Lin's photo\n │   ├── weihenglu.jpg   # Associate Professor Henglu Wei's photo\n └── README.md           # Documentation file\n ```\n \n"
+                },
+                {
+                    "date": 1774179347312,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n ├── script.js           # JavaScript file\n ├── images/             # Images directory\n │   ├── dlut.jpg        # Dalian University of Technology image\n │   ├── zhongwei.jpg    # Professor Wei Zhong's photo\n-│   ├── linlin.png       # Professor Lin Lin's photo\n+│   ├── linlin.png      # Professor Lin Lin's photo\n │   ├── weihenglu.jpg   # Associate Professor Henglu Wei's photo\n └── README.md           # Documentation file\n ```\n \n"
                 }
             ],
             "date": 1774023293391,

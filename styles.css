@@ -670,6 +670,62 @@ body {
     box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
 }
 
+/* Graduate Destinations */
+.graduate-destinations {
+    background: #f8f9fa;
+    padding: 25px;
+    border-radius: 8px;
+    border-left: 4px solid #667eea;
+    margin: 25px 0;
+}
+
+.graduate-destinations h3 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.graduate-destinations h3 i {
+    color: #667eea;
+}
+
+.graduate-destinations > p {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.destination-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.destination-list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    background: white;
+    border-radius: 6px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.destination-list li:hover {
+    transform: translateX(5px);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.destination-list li i {
+    color: #667eea;
+    font-size: 1.1rem;
+    width: 25px;
+    text-align: center;
+}
+
 /* Introduction Images */
 .intro-images {
     display: grid;

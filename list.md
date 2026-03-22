@@ -1,4 +1,8 @@
-1. 多模态具身智能感知系统关键软件技术, 关键软件技术创新成果奖, 2025.
-2. 移动终端影像系统关键技术与应用, 北京市科技进步一等奖, 2024.
-3. ECCV the Second Perception Test Challenge, Best Performance in Single Object Tracking, 2024.
-4. 辽宁省优秀研究生导师团队, 2023.
+1. Yuhang Duan, Lin Lin, and Xiaoshuai Wu. "K-ProtoDiff: Key Prototypes-Guided Diffusion for Time Series Generation." In Proceedings of the AAAI Conference on Artificial Intelligence (AAAI),2026. (CCF A)
+2. Yuhang Duan, Lin Lin, Jinyuan Liu, Qing Zhang, and Xin Fan. "Cross-Domain Time-Frequency Mamba: A More Effective Model for Long-Term Time Series Forecasting." Knowledge-Based Systems, 2026. (SCI Q1, IF=7.6)
+3. Qing Zhang, Wei Shi, Xinyu Zhang, Han Sun, Lin Lin, and Mitsuo Gen. "Flexibility evaluation-based genetic algorithm for multi-layer fuzzy supply-demand network optimization." Computers & Industrial Engineering, 2025. (SCI Q1, IF=6.7)
+4. Chen Li, Xiyan Zhao, Lin Lin, Wenqiang Zhang, Mitsuo Gen, and Qing Zhang. "An evolutionary knowledge training-based proximal policy optimization algorithm for job shop scheduling in flexible intelligent manufacturing." Computers & Industrial Engineering, 2025. (SCI Q1, IF=6.7)
+5. Qing Zhang, Youling Huang, Lin Lin, and Chi Lin. "Resilient Topological Control for Dynamic Underwater Optical Wireless Networks." IEEE Transactions on Mobile Computing (2025). (SCI Q1, IF=9.2)
+6. Chen Li, Lin Lin, Xuze Qiu, Xiyan Zhao, Wenqiang Zhang, and Mitsuo Gen. "Evolutionary experience-guided deep reinforcement learning for job shop scheduling with AGV transportation constraints in flexible manufacturing system." Computers & Industrial Engineering, 2025. (SCI Q1, IF=6.7)
+7. Lu Sun, Ziqian Liu, Liangtian Wan, Yun Lin, Lin Lin, Jie Wang, and Mitsuo Gen. "Cooperative knowledge-distillation-based tiny DNN for UAV-assisted mobile-edge network." IEEE Internet of Things Journal, 2024. (SCI Q1, IF=8.9)
+8. Lu Sun, Jiashuai Wang, Jie Wang, Lin Lin, and Mitsuo Gen. "Efficient joint deployment of multi-UAVs for target tracking in traffic big data." IEEE Transactions on Intelligent Transportation Systems, 2024. (SCI Q2, IF=8.4)
