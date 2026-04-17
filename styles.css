@@ -720,28 +720,37 @@ body {
 }
 
 /* Content styling */
-.recruitment-notice strong, .graduate-destinations strong, .lab-environment strong {
+.graduate-destinations strong,
+.graduate-destinations p,
+.lab-environment strong,
+.lab-environment p,
+.recruitment-notice strong,
+.recruitment-notice p {
+    color: #ffffff !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5), 0 0 10px rgba(255, 255, 255, 0.3);
+    position: relative;
+    z-index: 1;
+}
+
+.graduate-destinations strong,
+.lab-environment strong,
+.recruitment-notice strong {
     font-size: 1.3rem;
     display: block;
     margin-bottom: 12px;
     font-weight: 700;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5), 0 0 10px rgba(255, 255, 255, 0.3);
-    position: relative;
-    z-index: 1;
-    color: #ffffff;
     letter-spacing: 0.5px;
 }
 
-.recruitment-notice p, .graduate-destinations p, .lab-environment p {
+.graduate-destinations p,
+.lab-environment p,
+.recruitment-notice p {
     margin: 0;
     line-height: 1.8;
     font-size: 0.95rem;
-    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6), 0 0 8px rgba(255, 255, 255, 0.2);
-    position: relative;
-    z-index: 1;
-    color: #ffffff;
     font-weight: 500;
     letter-spacing: 0.3px;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6), 0 0 8px rgba(255, 255, 255, 0.2);
 }
 
 /* Hover effects */
