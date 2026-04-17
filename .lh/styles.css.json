@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 12,
+            "activePatchIndex": 14,
             "patches": [
                 {
                     "date": 1774023652543,
@@ -56,6 +56,14 @@
                 {
                     "date": 1776395080259,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -724,20 +724,23 @@\n     font-size: 1.3rem;\n     display: block;\n     margin-bottom: 12px;\n     font-weight: 700;\n-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);\n+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n     position: relative;\n     z-index: 1;\n+    color: #ffffff;\n }\n \n .recruitment-notice p, .graduate-destinations p, .lab-environment p {\n     margin: 0;\n     line-height: 1.8;\n     font-size: 0.95rem;\n-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);\n+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);\n     position: relative;\n     z-index: 1;\n+    color: #ffffff;\n+    font-weight: 500;\n }\n \n /* Hover effects */\n .recruitment-notice:hover, .graduate-destinations:hover, .lab-environment:hover {\n"
+                },
+                {
+                    "date": 1776395601051,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -638,9 +638,9 @@\n }\n \n /* Individual styles for each section */\n .graduate-destinations {\n-    background: linear-gradient(135deg, #6a1b9a 0%, #8e24aa 100%);\n+    background: linear-gradient(135deg, #3a0070 0%, #4a0080 100%);\n }\n \n .graduate-destinations::before {\n     content: '';\n@@ -653,9 +653,9 @@\n     animation: shimmer 8s linear infinite;\n }\n \n .lab-environment {\n-    background: linear-gradient(135deg, #4a148c 0%, #6a1b9a 100%);\n+    background: linear-gradient(135deg, #2a0060 0%, #3a0070 100%);\n }\n \n .lab-environment::before {\n     content: '';\n@@ -668,9 +668,9 @@\n     animation: shimmer 10s linear infinite;\n }\n \n .recruitment-notice {\n-    background: linear-gradient(135deg, #5e35b1 0%, #4527a0 100%);\n+    background: linear-gradient(135deg, #3a0070 0%, #2a0060 100%);\n }\n \n .recruitment-notice::before {\n     content: '';\n"
+                },
+                {
+                    "date": 1776395614921,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -724,23 +724,25 @@\n     font-size: 1.3rem;\n     display: block;\n     margin-bottom: 12px;\n     font-weight: 700;\n-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);\n     position: relative;\n     z-index: 1;\n     color: #ffffff;\n+    letter-spacing: 0.5px;\n }\n \n .recruitment-notice p, .graduate-destinations p, .lab-environment p {\n     margin: 0;\n     line-height: 1.8;\n     font-size: 0.95rem;\n-    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);\n+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);\n     position: relative;\n     z-index: 1;\n     color: #ffffff;\n     font-weight: 500;\n+    letter-spacing: 0.3px;\n }\n \n /* Hover effects */\n .recruitment-notice:hover, .graduate-destinations:hover, .lab-environment:hover {\n"
                 }
             ],
             "date": 1774023652543,
