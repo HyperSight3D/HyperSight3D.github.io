@@ -725,7 +725,7 @@ body {
     display: block;
     margin-bottom: 12px;
     font-weight: 700;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5), 0 0 10px rgba(255, 255, 255, 0.3);
     position: relative;
     z-index: 1;
     color: #ffffff;
@@ -736,7 +736,7 @@ body {
     margin: 0;
     line-height: 1.8;
     font-size: 0.95rem;
-    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6), 0 0 8px rgba(255, 255, 255, 0.2);
     position: relative;
     z-index: 1;
     color: #ffffff;
